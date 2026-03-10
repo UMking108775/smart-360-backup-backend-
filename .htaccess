@@ -9,7 +9,7 @@ Options -Indexes
     RewriteRule ^config\.php$ - [F,L]
     RewriteRule ^includes/ - [F,L]
     RewriteRule ^tmp/ - [F,L]
-    RewriteRule ^install\.php$ - [F,L]
+    # After running install.php, delete it manually for security
 </IfModule>
 
 # Security headers
